@@ -4,11 +4,11 @@ def run_guessing_game
   guess = gets.chomp 
   
   case guess 
-  when guess == num
+  when == num
     puts "You guessed the correct number!"
-  when !guess == num 
+  when  !== num 
     puts "Sorry! The computer guessed #{num}"
-  when guess == "exit"
+  when == "exit"
     puts "Goodbye!"
   end
   
