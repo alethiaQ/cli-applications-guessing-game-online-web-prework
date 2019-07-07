@@ -3,13 +3,6 @@ def run_guessing_game
   puts "Guess a number between 1 and 6"
   guess = gets.chomp 
   
-  case guess 
-  when *num
-    puts "You guessed the correct number!"
-  when "exit"
-    puts "Goodbye!"
-  else
-    puts "Sorry! The computer guessed #{num}."
-  end
+ 
   
 end
