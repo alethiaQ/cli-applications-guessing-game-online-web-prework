@@ -4,7 +4,7 @@ def run_guessing_game
   guess = gets.chomp 
   
   case guess 
-  when guess == num
+  when == num
     puts "You guessed the correct number!"
   when "exit"
     puts "Goodbye!"
